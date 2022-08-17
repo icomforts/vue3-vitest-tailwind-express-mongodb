@@ -1,0 +1,37 @@
+{
+  "name": "vue3-vitest-tailwind-express-mongodb",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "staging": "vite --mode staging",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@vuelidate/core": "^2.0.0-alpha.44",
+    "@vuelidate/validators": "^2.0.0-alpha.31",
+    "@vueuse/core": "^9.1.0",
+    "axios": "^0.27.2",
+    "object-to-formdata": "^4.4.2",
+    "pinia": "^2.0.18",
+    "unplugin-vue-components": "^0.22.4",
+    "vue": "^3.2.25",
+    "vue-create-ripple": "^0.3.1",
+    "vue-router": "^4.1.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.16",
+    "sass": "^1.54.4",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.5.4",
+    "unplugin-auto-import": "^0.11.1",
+    "vite": "^2.9.9",
+    "vitest": "^0.21.1",
+    "vue-tsc": "^0.34.7"
+  }
+}
